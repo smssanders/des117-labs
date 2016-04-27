@@ -1,0 +1,87 @@
+html {background: url(http://www.heritagestoneutah.com/wp-content/uploads/2015/11/Dollarphotoclub_82304012.jpg) no-repeat;
+    background-size: cover;
+margin: auto; 
+padding: 25px;
+    overflow:scroll;
+    }
+
+body {background-color: rgba(214,214,214,0.6);
+    padding:0px 25px 25px 25px;
+    border: solid #575151 5px;
+}
+
+
+
+a {color:#676D78;
+text-decoration: none;
+font-weight:;}
+
+
+    
+header {background-image: url("juno-couture-vintage-label-web.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:0.5px;
+height: 300px;
+width:auto;}
+
+
+
+h1 {font-family: 'Georgia';
+    text-shadow: 2px 2px #676D78;
+    font-size: 45pt;
+    text-align: center;
+    line-height: 0pt;
+    padding-top: 64pt;
+    
+}
+
+h2 {font-family: "Georgia";
+    font-size: 25pt;
+    text-align: center;
+    line-height: 0px;
+    text-shadow: 2px 1px 676D78;
+     padding-top: 0pt;
+}
+
+h3 {font-family: "Baskerville";
+    text-shadow: 2px 1px #676D78;
+font-size: 16pt;}
+
+p {font-family: Bell;}
+
+.sidebar { margin: 5pt;}
+
+.summary {text-align: center;
+    font-size: 14pt;
+    font-family: Baskerville;
+    margin: 5pt;
+}
+
+.preamble {
+padding: 0pt 10pt 0pt 10pt;
+    margin: 5pt;
+}
+
+.explanation {
+padding: 0pt 10pt 0pt 10pt;
+    margin: 5pt;
+}
+
+
+.participation {
+padding: 0pt 10pt 0pt 10pt;
+    margin: 5pt;}
+
+.benefits {
+padding: 0pt 10pt 0pt 10pt;
+    margin: 5pt;}
+
+.requirements {
+padding: 0pt 10pt 0pt 10pt;
+    margin: 5pt;}
+
+footer {
+padding: 0pt 10pt 0pt 10pt;
+    margin: 5pt;
+text-align: center;}
