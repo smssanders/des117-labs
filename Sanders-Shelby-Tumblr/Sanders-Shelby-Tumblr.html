@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <style>
+        h1 {
+           color: black;
+           font-family: Century Gothic;
+           margin-left: 15pt;
+           font-size: 50px;
+           text-decoration: underline;
+        }
+        
+        h2 { color: black;
+           font-family: Century Gothic;
+           margin-left: 15pt;
+            font-size: 21px;
+          
+        }
+
+        
+        .image {
+            text-align: center;
+           
+        }
+            
+          img { height: auto;
+              width: 550px;
+              padding-top: 40px;
+     
+          }
+            
+
+        li{display: inline-block;
+         list-style-type:none;
+         }
+    
+    .center {text-align: center;
+        padding-right: 40px;
+    }
+        
+        nav{
+            position:relative;
+            bottom:104px;
+            display:block;
+            padding-right:20px;
+            float:right;
+            font-family: Century Gothic;
+            word-spacing: 50px;
+        }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+        .clear {
+            clear:both;
+        }
+        
+        body {background-color: white;}
+
+h3 {text-align: center;
+        font-family: Century Gothic;
+        padding-top: 20px;
+       
+}
+
+.text {text-align: center;
+color: black;
+        font-family: Century Gothic;
+        margin: auto;
+        width: 50%;
+    
+}
+
+hr {width: 650px;
+    height:2px;border-width:0;background-color:black;
+
+    
+}
+
+.small {width: 550px;
+    height:1px;
+}
+
+    </style>
+</head>
+
+<body>
+    
+    <header>
+ 
+
+        <div style="clear: both;"></div>
+
+        <h1> {Title} </h1>
+        <h2> {Description} </h2>
+    
+    <nav>
+    <a href="http://shelbysanders25.tumblr.com">Home</a>
+    <a href="https://www.instagram.com/sshesellsseashellss">Instagram</a>
+    <a href="/archive">Archive</a>
+    </nav>
+    </header>
+    
+    <div class="clear">
+    {block:Posts}
+    
+     {block:Text}
+    
+        <h3>
+            {title}
+        </h3>
+        
+        <div class="text">
+        {body}
+        </div>
+    
+    {/block:Text}
+
+    {block:Photo}
+<p class="image"> <img src="{PhotoURL-HighRes}"> </p>
+        
+        
+    
+
+    {/block:Photo}
+  
+ <div class="center"> 
+<ul>
+    <li>{ReblogButton}</li>
+    <li>{LikeButton}</li>
+</ul>
+</div>
+
+<hr class="small">
+
+<hr>    
+
+<hr class="small">
+    {/block:Posts}
+    
+    </div>
+</body>
+
+</html>
